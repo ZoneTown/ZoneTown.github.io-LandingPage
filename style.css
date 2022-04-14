@@ -1,0 +1,74 @@
+/*Creates the Background image and keeps it centered without repeating*/
+html {
+	background:url(codeedit.jpg) no-repeat center center fixed ;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    
+}
+
+/*Removes white border around everything*/
+body{
+    margin:0;
+}
+
+
+/*Creates the border around the West-Mec Coding h1 (as well as changing the text color)*/
+.topper{
+    border: 20px solid #36B346;
+    background-color: #36B346;
+    color:white;
+    
+}
+
+/*Messes with the West-Mec Coding h1 head on*/
+#head1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    
+}
+
+/*Messes with the arrow.png image which is a custom logo*/
+#logo{
+    float:left;
+}
+
+/*Messes with the non-functional button that says "Get Started!"*/
+#button{
+    border: 10px solid #36B346;
+    background-color: #36B346;
+    border-radius:20px;
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width:100px;
+    text-align:center;
+    margin-left:658px;
+    margin-top:30px;
+}
+
+/*Messes with the footer*/
+#footer{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top:126px;
+    color:white;
+    text-indent:10px;
+}
+
+/*Messes with the 2nd header*/
+#head2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:62px;
+    color:white;
+    text-align:center;
+    margin-top:180px;
+}
+
+/*Messes with the "Learn HTML, CSS, and Javascript" header*/
+#head3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    text-align:center;
+    font-size:24px;
+    margin-top:-50px;
+}
